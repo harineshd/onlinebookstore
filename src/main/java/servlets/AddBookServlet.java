@@ -67,7 +67,7 @@ public class AddBookServlet extends HttpServlet {
     }
     
     private static void showAddBookForm(PrintWriter pw) {
-        String form = "<table class=\"tab my-5\" style=\"width:40%;\">\r\n"
+        String form = "<table class=\"tab my-5\" style=\"width:50%;\">\r\n"
                 + "        <tr>\r\n"
                 + "            <td>\r\n"
                 + "                <form action=\"addbook\" method=\"post\">\r\n"
